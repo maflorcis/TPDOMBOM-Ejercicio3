@@ -5,21 +5,21 @@ cada elemento ingresado en la lista debe poder ser eliminado con un botón cread
 para ese ﬁn.
 
 */
-var boton = document.getElementById("accioar");
-    var input = document.getElementById("inputusuario");
-    var listafunc = document.querySelector("ul");
-    var botonDelete = document.getElementById("borrar");
+let boton = document.getElementById("accioar");
+    let input = document.getElementById("inputusuario");
+    let listafunc = document.querySelector("ul");
+    let botonDelete = document.getElementById("borrar");
     
     
     boton.addEventListener("click", function() {
-        var nuevoli = document.createElement("li");
-        var textoli = document.createTextNode(input.value);
+        let nuevoli = document.createElement("li");
+        let textoli = document.createTextNode(input.value);
         nuevoli.appendChild(textoli);
         listafunc.appendChild(nuevoli);
     });
     
     function remove_child() {
-      var list = document.getElementById('list');
-      var item = listafunc.lastElementChild;
+      let list = document.getElementById('list');
+      let item = listafunc.lastElementChild;
       list.removeChild(item);
     }
