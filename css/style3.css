@@ -3,19 +3,18 @@
 
 h1{
     font-family: 'Nanum Pen Script', cursive;
-    color: black;
+    color: white;
+    background-color:  rgba(13, 11, 128, 0.404);
 }
-
 
 body{
     background-color : grey;
-    background-image : url('../img/pexels-eduardo-braga-1296726.jpg');
-    background-size: 150%;
-    
+    background-image : url('../img/pexels-mathias-reding-6672292.jpg');
+    font-family: 'Loved by the King', cursive;
+    color: blue;
 
     }
 
-
-   .cuerpo{  font-family: 'Loved by the King', cursive;
-    color: blue;
-   }
+    #list {
+       background-color:  rgba(212, 212, 224, 0.83)
+    }
